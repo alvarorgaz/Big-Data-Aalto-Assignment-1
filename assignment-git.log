@@ -1,2 +1,50 @@
-the content of this file should be the output of the log of your own git project for this assignment
-using git log command to export your git log
+$ git log
+commit 3573e03dc0e36a554902d2d6c5509936fcf71862 (HEAD -> master, origin/master)
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Fri Oct 11 00:14:08 2019 +0300
+
+    Add rest of assignment solution files and delete unnecessary ones.
+
+commit ffe829045795924561b3d2504fea4a5e0d20ce5c
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Thu Oct 10 17:05:32 2019 +0300
+
+    Add performance logs.
+
+commit c1c866fa74d1291d8dbbae3b9f40d9b3102cbad4
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Thu Oct 10 14:50:29 2019 +0300
+
+    Add REST APIs to read data from MongoDB by app name, include read/store for reviews data, and add option to ingest without sampling.
+
+commit d1d15e425673065e827575734a9127ea04a9c178
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Thu Oct 10 07:28:54 2019 +0300
+
+    Modify mysimbdp-dataingest.py to add option of storing both apps and reviews data files.
+
+commit 51477a2a522a5e615eda36e4d6325d70fc56f48e
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Wed Oct 9 12:36:58 2019 +0300
+
+    Add performance logs using REST API in local and cloud VM, as well as using API of MongoDB.
+
+commit 88d91a5ad9146dd0a539e3ab6c6ed197c13abf1e
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Wed Oct 9 12:35:54 2019 +0300
+
+    Modify performance_multiple_requests.py script to include test using directly API of MongoDB.
+
+commit 57f891a587c246e8d0bb1c28c2ddb7d6b20c52de
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Wed Oct 9 00:16:20 2019 +0300
+
+    Add script to study request performance using REST API.
+
+commit eb4b03d8ce677ae0fbe96dfec1f57f25ccf9de41
+Author: alvarorgaz <alvarorgaz@gmail.com>
+Date:   Tue Oct 8 17:11:04 2019 +0300
+
+    Add .gitignore file.
+
+commit 50c6301a152c752f5609a8d430892df21537a0b5
